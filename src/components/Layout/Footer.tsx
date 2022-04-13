@@ -15,7 +15,7 @@ const Footer = () => {
           <div className={`${classes.navbar}`}>
             <h4>
               <Link to="/" className="navbar-brand">
-                <i className="fa-solid fa-compact-disc"></i> &nbsp; R&B Media
+                <i className="fa-solid fa-clapperboard"></i> &nbsp; R&B Media
               </Link>
             </h4>
           </div>
