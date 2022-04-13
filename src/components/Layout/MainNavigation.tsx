@@ -98,7 +98,7 @@ const MainNavigation: React.FC = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                People
+                <i class="fa-solid fa-user"></i> People
               </a>
               <ul
                 className="dropdown-menu"
