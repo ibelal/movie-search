@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgba(3, 37, 65, 1);
+}
+.navbar nav {
+  background-color: rgba(3, 37, 65, 1);
+}
+.navbar h3 a,
+.navbar h4 a {
+  background: linear-gradient(to right, #c0fecf 0%, #1ed5a9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul.navbar-nav > li > a {
+  color: rgb(231, 241, 250);
+}
+.navbar-nav ul li .dropdown-item:focus,
+.navbar-nav ul li a:active {
+  color: #1e2125;
+  background-color: #e9ecef;
+}
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  color: #c0fecf;
+}
+ul.navbar-nav > li > ul > li > a:active {
+  color: #1e2125;
+  background-color: #e9ecef;
+}
+
+ul.navbar-nav li a::after {
+  content: none !important;
+}
+.navbar-nav ul {
+  margin-top: 0.7rem !important;
+}
+
+.navActive > a {
+  font-weight: 500;
+  color: #1ed5a9 !important;
+}

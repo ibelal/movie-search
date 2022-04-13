@@ -1,0 +1,57 @@
+.cardItem {
+  margin: 0 12px;
+  min-width: auto;
+  max-width: 200px;
+}
+.cardItemNoBorder {
+  border: none;
+}
+
+.cardImageW150 {
+  max-width: 150px;
+}
+.cardImageW250 {
+  width: 100%;
+  max-width: 200px;
+  max-height: 300px;
+}
+
+.cardBody {
+  padding: 0.5rem;
+}
+.cardBody h6,
+.cardBody p {
+  font-size: 0.9rem;
+}
+.cardBody p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.cardBody h6 {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.cardBody h6:hover {
+  color: rgba(1, 180, 228, 1);
+}
+
+.small {
+  font-size: 45px;
+  margin: -15px 0 0 10px !important;
+  background-color: #000;
+}
+.small::after {
+  background-color: #000;
+}
+.small span {
+  color: #fff;
+  font-size: 0.3em;
+  line-height: 3.4em;
+  width: 3.3em;
+  font-weight: 700;
+}
+
+.no-image {
+  width: 100%;
+  padding: 20px 0;
+}
