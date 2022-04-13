@@ -14,7 +14,7 @@ const MainNavigation: React.FC = () => {
       <nav className="container">
         <h3>
           <Link to="/" className="navbar-brand logo-icon">
-            <i className="fa-solid fa-compact-disc"></i>
+            <i className="fa-solid fa-film"></i>
             &nbsp; R&B Media
           </Link>
         </h3>
