@@ -1,5 +1,6 @@
 {
   "name": "movie-search",
+  "author": "Mohammad Belal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
