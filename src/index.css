@@ -42,6 +42,12 @@ h6 {
 .nav-footer {
   background-color: rgba(3, 37, 65, 1);
 }
+a.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  transition: height 0ms 0ms, opacity 600ms 0ms;
+}
 @media (max-width: 576px) {
   .socialinks {
     width: 100%;

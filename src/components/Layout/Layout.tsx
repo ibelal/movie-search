@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import BackToTop from "./BackToTop";
 import Footer from "./Footer";
 import MainNavigation from "./MainNavigation";
 
@@ -10,6 +11,7 @@ export const Layout: React.FC = (props) => {
         {props.children}
       </main>
       <Footer />
+      <BackToTop />
     </Fragment>
   );
 };

@@ -30,7 +30,6 @@ const NavbarSearch: React.FC = () => {
   const onSubmitHandler = useCallback(
     async (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      inputRef.current!.focus();
       if (keyword.length > 0) {
         dispatch(searchAction.setKeyword({ searchType, keyword }));
         dispatch(searchAction.getSearchResult(1));
@@ -49,6 +48,8 @@ const NavbarSearch: React.FC = () => {
           })
         );
         navigate(`/search?keyword=${keyword}`);
+      } else {
+        inputRef.current!.focus();
       }
     },
     [keyword, searchType, dispatch]
